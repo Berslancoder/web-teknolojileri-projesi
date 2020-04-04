@@ -38,5 +38,5 @@ Login Sayfası:
 -	Kontrol işlemleri JavaScript kullanılarak denetlenmeli.
 -	Gönderilen form bilgileri başka bir sayfada görüntülenmeli.
 
-Proje Süreci:
+---- Proje Süreci ----
 -	Projenin geliştirme aşamasındayken en az 3 farklı versiyonunu GitHub’a yüklemeyi planlıyorum.
