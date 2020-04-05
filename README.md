@@ -1,8 +1,5 @@
 # web-teknolojileri-projesi
 
-                                                                                Burak Berslan HIZLIOK     
-                                                                                B191210025
-
 
 ---- Projenin amacı ----
 -	Kendimi ve yaşadığım şehri tanıtan kişisel bir web sitesi geliştirmek.
