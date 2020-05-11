@@ -53,6 +53,7 @@
     <div class="col-sm">
 	
       <form action="iletisimkayit.php" method="get">
+	  
 		
 			
 			
@@ -81,11 +82,12 @@
 		
 		
 		
-		<input type="submit" onclick="formKontrol()" value="GÖNDER">
+		<input type="submit" onclick="ValidateEmail()" value="GÖNDER">
+		<br><br>
+		<input type="reset" value="Temizle">
 		<br><br>
 		
-	  
-	  
+	
 	  
 	  </form>
     </div>
@@ -97,6 +99,18 @@
 
 
  <!-- Optional JavaScript -->
+ 
+		<script>
+	  function ValidateEmail(mail) 
+	{
+	if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
+	{
+    return (true)
+	}
+    alert("You have entered an invalid email address!")
+    return (false)
+	}
+	  </script>
  
  
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
